@@ -11,6 +11,7 @@ import org.wiremock.spring.EnableWireMock;
 import static com.ziola.github_repo_retriever.utils.ApiStubs.stubExternalApis;
 import static com.ziola.github_repo_retriever.utils.ApiStubs.stubUserNotFound;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
+import static org.springframework.test.web.servlet.client.RestTestClient.bindToServer;
 
 @EnableWireMock(
         @ConfigureWireMock(
@@ -27,7 +28,7 @@ class GithubControllerIntegrationTest {
 
     @BeforeEach
     void setup() {
-        client = RestTestClient.bindToServer()
+        client = bindToServer()
                 .baseUrl("http://localhost:" + port)
                 .build();
     }
@@ -72,7 +73,7 @@ class GithubControllerIntegrationTest {
         var expectedJson = """
                         {
                             "status": 404,
-                            "message": "User 'octocat' not found"
+                            "message": "User not found on GitHub"
                         }
                 """;
         // when & then

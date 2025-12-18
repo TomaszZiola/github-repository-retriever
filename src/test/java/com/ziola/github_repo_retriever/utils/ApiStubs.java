@@ -15,10 +15,6 @@ import static org.springframework.http.HttpHeaders.CONTENT_TYPE;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 public final class ApiStubs {
-    private ApiStubs() {
-        throw new IllegalStateException("Utility class should not be instantiated");
-    }
-
     private static final String BRANCHES_CONSORTIUM_RESPONSE_FILE = "wiremock/BranchesConsortium.json";
     private static final String BRANCHES_HELLO_WORLD_RESPONSE_FILE = "wiremock/BranchesHelloWorld.json";
     private static final String NOT_FOUND_RESPONSE_FILE = "wiremock/UserNotFound.json";
