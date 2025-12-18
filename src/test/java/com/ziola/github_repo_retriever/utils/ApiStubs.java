@@ -22,7 +22,7 @@ public final class ApiStubs {
     private static final String BRANCHES_CONSORTIUM_RESPONSE_FILE = "wiremock/BranchesConsortium.json";
     private static final String BRANCHES_HELLO_WORLD_RESPONSE_FILE = "wiremock/BranchesHelloWorld.json";
     private static final String NOT_FOUND = "wiremock/UserNotfound.json";
-    private static final String REPOS_OCTOCAT_RESPONSE_FILE = "wiremock/Repos-octocat.json";
+    private static final String REPOS_OCTOCAT_RESPONSE_FILE = "wiremock/ReposOctocat.json";
 
     public static void stubExternalApis() {
         stubFor(get(urlEqualTo("/users/octocat/repos"))
