@@ -19,7 +19,7 @@ import static org.springframework.test.web.servlet.client.RestTestClient.bindToS
         )
 )
 @SpringBootTest(webEnvironment = RANDOM_PORT)
-class GithubControllerIntegrationTest {
+class RepositoryControllerIntegrationTest {
 
     @LocalServerPort
     private int port;
