@@ -9,10 +9,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/github/users")
-class GitHubRepositoryController {
-    private final GitHubRepositoryService githubService;
+class GitHubController {
+    private final GitHubService githubService;
 
-    GitHubRepositoryController(GitHubRepositoryService githubService) {
+    GitHubController(GitHubService githubService) {
         this.githubService = githubService;
     }
 
