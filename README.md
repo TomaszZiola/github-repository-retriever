@@ -1,4 +1,4 @@
-GitHub Repo Retriever
+GitHub Repository Retriever
 
 Small Spring Boot service that fetches a GitHub user's public repositories (excluding forks) and lists their branches with the last commit SHA.
 

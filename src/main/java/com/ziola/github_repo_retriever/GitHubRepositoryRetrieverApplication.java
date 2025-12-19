@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GitHubRepoRetrieverApplication {
+public class GitHubRepositoryRetrieverApplication {
 
     static void main(String[] args) {
-        SpringApplication.run(GitHubRepoRetrieverApplication.class, args);
+        SpringApplication.run(GitHubRepositoryRetrieverApplication.class, args);
     }
 }

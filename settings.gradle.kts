@@ -1,1 +1,1 @@
-rootProject.name = "github-repo-retriever"
+rootProject.name = "github-repository-retriever"
