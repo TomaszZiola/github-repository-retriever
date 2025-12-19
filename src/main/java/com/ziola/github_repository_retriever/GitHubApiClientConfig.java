@@ -11,7 +11,7 @@ import static org.springframework.http.HttpStatus.NOT_FOUND;
 
 @Configuration
 @ImportHttpServices(group = "github", types = GitHubApiClient.class)
-class GitHubClientConfig {
+class GitHubApiClientConfig {
 
     @Bean
     RestClientHttpServiceGroupConfigurer groupConfigurer(@Value("${github.api.url}") String baseUrl) {

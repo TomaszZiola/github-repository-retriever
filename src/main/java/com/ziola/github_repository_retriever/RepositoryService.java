@@ -5,10 +5,10 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-class GitHubService {
+class RepositoryService {
     private final GitHubApiClient githubClient;
 
-    GitHubService(GitHubApiClient githubClient) {
+    RepositoryService(GitHubApiClient githubClient) {
         this.githubClient = githubClient;
     }
 
