@@ -7,14 +7,10 @@ Key features:
 - Fork repositories filtered out
 - Friendly 404 JSON error when the user does not exist
 
-## Tech Stack
-- **Java 25**
-- **Spring Boot 4.0.1**
-- **Gradle** (wrapper included)
-- **WireMock** (for integration tests)
-
-Requirements
-- Java 25 (toolchain configured in Gradle)
+### Tech stack
+- Java 25
+- Spring Boot 4.0.1
+- WireMock (for integration tests)
 - Gradle (wrapper included)
 
 Run locally
