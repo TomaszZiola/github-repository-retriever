@@ -1,7 +1,6 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.ziola.github-repo-retriever' is invalid and this project uses 'com.ziola.github_repo_retriever' instead.
 
 # Getting Started
 
